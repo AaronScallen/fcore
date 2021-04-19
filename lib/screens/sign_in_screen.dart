@@ -40,7 +40,7 @@ class _SignInScreenState extends State<SignInScreen> {
         _passwordFocusNode.unfocus();
       },
       child: Scaffold(
-        backgroundColor: CustomColors.firebaseNavy,
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Padding(
             padding: const EdgeInsets.only(
@@ -60,23 +60,23 @@ class _SignInScreenState extends State<SignInScreen> {
                       Flexible(
                         flex: 1,
                         child: Image.asset(
-                          'assets/firebase_logo.png',
+                          'assets/core.png',
                           height: 160,
                         ),
                       ),
                       SizedBox(height: 20),
                       Text(
-                        'FlutterFire',
+                        'InfoCore',
                         style: TextStyle(
-                          color: CustomColors.firebaseYellow,
+                          color: Colors.blue[500],
                           fontSize: 40,
                         ),
                       ),
                       Text(
-                        'Authentication',
+                        'NISD Police',
                         style: TextStyle(
                           color: CustomColors.firebaseOrange,
-                          fontSize: 40,
+                          fontSize: 25,
                         ),
                       ),
                     ],

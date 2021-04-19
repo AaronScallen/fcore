@@ -14,7 +14,7 @@ class AppBarTitle extends StatelessWidget {
         ),
         SizedBox(width: 8),
         Text(
-          'FlutterFire',
+          'InfoCore',
           style: TextStyle(
             color: CustomColors.firebaseYellow,
             fontSize: 18,
